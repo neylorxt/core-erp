@@ -79,14 +79,22 @@ export function Footer() {
             </p>
             <div className="mt-6 flex gap-2">
               {[
-                { icon: LinkedinIcon, label: "LinkedIn" },
-                { icon: XIcon, label: "X (Twitter)" },
-                { icon: GithubIcon, label: "GitHub" },
-              ].map(({ icon: Icon, label }) => (
+                { icon: LinkedinIcon, label: "LinkedIn", href: "#overview" },
+                { icon: XIcon, label: "X (Twitter)", href: "#overview" },
+                {
+                  icon: GithubIcon,
+                  label: "GitHub",
+                  href: "https://github.com/neylorxt/core-erp",
+                  external: true,
+                },
+              ].map(({ icon: Icon, label, href, external }) => (
                 <a
                   key={label}
-                  href="#overview"
+                  href={href}
                   aria-label={label}
+                  {...(external
+                    ? { target: "_blank", rel: "noopener noreferrer" }
+                    : {})}
                   className="flex h-9 w-9 items-center justify-center rounded-md border border-zinc-200 text-zinc-500 transition-colors hover:border-zinc-300 hover:text-zinc-900"
                 >
                   <Icon className="h-4 w-4" />
