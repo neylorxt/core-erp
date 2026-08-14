@@ -4,6 +4,8 @@ Landing page professionnelle et responsive pour **CoreERP**, une plateforme de g
 
 Le site présente la plateforme de bout en bout : une démo de tableau de bord, les 9 modules métier, des aperçus d'interfaces réalistes (CRM, inventaire, finance, RH, reporting…), les rôles et permissions, les intégrations, la sécurité, les tarifs, une FAQ et un appel à l'action final.
 
+> **[🇬🇧 English version](/README.en.md)**
+
 ## Description du projet
 
 CoreERP centralise les opérations d'une entreprise — clients, ventes, stock, comptabilité et employés — dans une seule plateforme. Cette landing page met en scène le produit avec des **préviews d'ERP réalistes construites en pur HTML/CSS** (aucune image), dans un style logiciel d'entreprise sobre :
@@ -14,17 +16,17 @@ CoreERP centralise les opérations d'une entreprise — clients, ventes, stock, 
 
 ### Sections de la page
 
-1. **Navbar** — liens d'ancrage (Product, Modules, Solutions, Pricing, Resources), menu mobile.
-2. **Hero** — *« Run your business from one platform. »* + tableau de bord ERP (revenus €124 850, commandes 842, clients 1 284, produits 3 542, factures en attente 27, graphique de revenus, commandes récentes, alertes stock, factures).
-3. **Modules** — 9 modules (CRM, Sales, Inventory, Purchasing, Invoices, Accounting, HR, Projects, Analytics), chacun avec une mini-préview fonctionnelle.
-4. **Approfondissements** — CRM (tableau clients), Inventaire (indicateurs de stock faible), workflow commercial (Devis → Commande → Facture → Paiement), Finance (revenus/dépenses, cash-flow), Employés (annuaire RH), Reporting (KPI et graphiques).
-5. **Rôles & permissions** — matrice de permissions par équipe.
-6. **Intégrations** — Stripe, PayPal, Google Workspace, Microsoft 365, Slack, Webhooks & API.
-7. **Sécurité** — chiffrement, permissions, sauvegardes, journaux d'audit.
-8. **Tarifs** — Starter / Professional / Enterprise avec bascule mensuel / annuel (−20 %).
-9. **FAQ** — accordéon de questions fréquentes.
-10. **CTA final** — *« Manage your entire business from one place. »*
-11. **Footer** — liens, mentions légales, réseaux sociaux.
+1. **Navbar** : liens d'ancrage (Product, Modules, Solutions, Pricing, Resources), menu mobile.
+2. **Hero** : *« Run your business from one platform. »* + tableau de bord ERP (revenus €124 850, commandes 842, clients 1 284, produits 3 542, factures en attente 27, graphique de revenus, commandes récentes, alertes stock, factures).
+3. **Modules** : 9 modules (CRM, Sales, Inventory, Purchasing, Invoices, Accounting, HR, Projects, Analytics), chacun avec une mini-préview fonctionnelle.
+4. **Approfondissements** : CRM (tableau clients), Inventaire (indicateurs de stock faible), workflow commercial (Devis → Commande → Facture → Paiement), Finance (revenus/dépenses, cash-flow), Employés (annuaire RH), Reporting (KPI et graphiques).
+5. **Rôles & permissions** : matrice de permissions par équipe.
+6. **Intégrations** : Stripe, PayPal, Google Workspace, Microsoft 365, Slack, Webhooks & API.
+7. **Sécurité** : chiffrement, permissions, sauvegardes, journaux d'audit.
+8. **Tarifs** : Starter / Professional / Enterprise avec bascule mensuel / annuel (−20 %).
+9. **FAQ** : accordéon de questions fréquentes.
+10. **CTA final** : *« Manage your entire business from one place. »*
+11. **Footer** : liens, mentions légales, réseaux sociaux.
 
 ## Stack technique
 
