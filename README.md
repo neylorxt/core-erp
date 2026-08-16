@@ -1,5 +1,7 @@
 # CoreERP — Landing page
 
+![Aperçu du projet](./public/preview/preview.png)
+
 Landing page professionnelle et responsive pour **CoreERP**, une plateforme de gestion d'entreprise (ERP) tout-en-un destinée aux PME.
 
 Le site présente la plateforme de bout en bout : une démo de tableau de bord, les 9 modules métier, des aperçus d'interfaces réalistes (CRM, inventaire, finance, RH, reporting…), les rôles et permissions, les intégrations, la sécurité, les tarifs, une FAQ et un appel à l'action final.
